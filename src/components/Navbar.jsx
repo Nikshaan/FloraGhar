@@ -14,7 +14,7 @@ const Navbar = () => {
             setMobile(false)
         }
     })
-//
+
   return (
     <div className="bg-[#1A5319] px-3 py-2 flex flex-col gap-3 md:flex-row justify-between items-center sticky top-0 z-50">
         <div className="flex gap-2 items-center cursor-pointer">

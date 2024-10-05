@@ -29,7 +29,6 @@ const App = () => {
     </div>
   )
 }
-//error page set kr
 
 
 export default App

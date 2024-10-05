@@ -13,7 +13,7 @@ const Collections = () => {
                     <p className="absolute bottom-0 right-2 text-4xl lg:text-6xl font-bold font-mono text-white">PLANTS</p>
                 </div>
                 </Link>
-                <Link to='seed-collection'>
+                <Link to='/seed-collection'>
                 <div className="h-[200px] w-[300px] lg:h-[300px] lg:w-[450px] 2xl:w-[750px] 2xl:h-[400px] relative overflow-hidden">
                     <img className="border-2 border-black hover:scale-110 duration-100 h-full w-full" src={constants.seedsCAT} alt=""/>
                     <p className="absolute bottom-0 right-2 text-4xl lg:text-6xl font-bold font-mono text-white">SEEDS</p>
@@ -27,7 +27,7 @@ const Collections = () => {
                     <p className="absolute bottom-0 right-2 text-4xl lg:text-6xl font-bold font-mono text-white">ACCESSORIES</p>
                 </div>
                 </Link>
-                <Link to='plant-care-collection'>
+                <Link to='/plant-care-collection'>
                 <div className="h-[200px] w-[300px] lg:h-[300px] lg:w-[450px] 2xl:w-[750px] 2xl:h-[400px] relative overflow-hidden">
                     <img className="border-2 border-black hover:scale-110 duration-100 h-full w-full" src={constants.careCAT} alt=""/>
                     <p className="absolute bottom-0 right-2 text-4xl lg:text-6xl font-bold font-mono text-white">PLANT-CARE</p>

@@ -111,5 +111,5 @@ const Subscription = () => {
     </section>
   )
 }
-//w-[400px] h-[250px]  lg:w-[800px] lg:h-[300px] 2xl:w-[900px] 2xl:h-[500px]
+
 export default Subscription
