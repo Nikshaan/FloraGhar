@@ -15,6 +15,7 @@ const App = () => {
     <div>
         <Routes>
           <Route path='/' element={<Body />} />
+          <Route path='/FloraGhar/' element={<Body />} />
           <Route path='/about' element={<About />} />
           <Route path='/cart' element={<Cart />} />
           <Route path='/plant-collection' element={<Plants />} />
