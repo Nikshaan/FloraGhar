@@ -145,7 +145,7 @@ const Plants = () => {
         <div className="flex-1 flex flex-col">
             <div className={"bg-[#508D4E] min-h-20 flex gap-4 justify-between items-center px-2 md:px-10 border-2 border-t-0 border-black"}>
                   <img onClick={() => setFilterSlide(!filterSlide)} className="w-8 cursor-pointer bg-white px-[6px] py-[6px] rounded-full" src={constants.filter} alt=" " />
-                  <p className="text-nowrap lg:text-3xl font-bold font-Precursive">PLANT COLLECTION</p>
+                  <p className="text-nowrap sm:text-3xl font-bold font-Precursive">PLANT COLLECTION</p>
                   <select onChange={(e) => setSortType(e.target.value)} className="rounded-lg font-Raleway cursor-pointer text-sm xl:py-1 xl:px-2">
                       <option value="relavent">RELAVANT</option>
                       <option value="low-high">LOW TO HIGH</option>

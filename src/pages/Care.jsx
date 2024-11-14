@@ -58,8 +58,8 @@ const Care = () => {
       <div className="flex flex-col w-full h-full relative">
         <div className="flex-1 flex flex-col">
             <div className={"bg-[#508D4E] min-h-20 flex gap-4 justify-between items-center px-6 md:px-10 border-2 border-t-0 border-black"}>
-                  <p className="text-nowrap flex-1 text-center text-sm lg:text-3xl font-bold font-sans underline">PLANT-CARE COLLECTION</p>
-                  <select onChange={(e) => setSortType(e.target.value)} className="rounded-lg text-sm xl:py-1 xl:px-2">
+                  <p className="text-nowrap flex-1 text-center text-sm sm:text-3xl font-bold font-Raleway">PLANT-CARE COLLECTION</p>
+                  <select onChange={(e) => setSortType(e.target.value)} className="rounded-lg cursor-pointer font-Raleway text-sm xl:py-1 xl:px-2">
                       <option value="relavent">RELAVANT</option>
                       <option value="low-high">LOW TO HIGH</option>
                       <option value="high-low">HIGH TO LOW</option>
@@ -67,7 +67,7 @@ const Care = () => {
             </div>
             
             <div className="bg-[#D6EFD8] flex-1 border-l-2 border-r-2 border-black p-6">
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 gap-y-6 2xl:py-52">
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 gap-y-6">
                 {
                   filterProducts.map((item) => (
                     <ProductItems key={item.id} id= {item.id} img={item.img} name={item.name} price={item.price} />

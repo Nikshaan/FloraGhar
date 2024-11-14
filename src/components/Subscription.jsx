@@ -7,7 +7,7 @@ const Subscription = () => {
         <div className="flex justify-center items-center">
             <div>
                 <h1 className="text-black text-3xl md:text-5xl 2xl:text-7xl text-center italic font-Raleway mb-3">Become a part of the FloraClub!</h1>
-                <p className="text-white text-sm md:text-lg italic font-Precursive text-center">Get exciting offers and discounts upto 40% off on any purchases from our website.</p>
+                <p className="text-white text-sm md:text-lg 2xl:text-2xl italic font-Raleway text-center">Get exciting offers and discounts upto 40% off on any purchases from our website.</p>
             <div className="mt-6 flex gap-5 justify-center items-center">
                 <button className="bg-white p-3 font-Raleway font-bold hover:bg-black hover:text-white hover:duration-300 rounded-2xl">
                     LEARN MORE

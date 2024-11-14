@@ -21,7 +21,7 @@ const Navbar = () => {
             <img className="h-9 sm:h-16" src={constants.logo} alt="logo"/>
             <h1 className="text-white tracking-wider text-2xl sm:text-3xl font-Raleway italic">FloraGhar</h1>
         </div>
-        <ul className="flex text-white gap-5 md:gap-6 text-base font-raleway">
+        <ul className="flex text-white lg:text-xl gap-5 md:gap-6 text-base font-raleway">
             <Link activeClass="active" to='home' smooth={true} offset={mobile===false?-80:-120} duration={500}>
                 <p className="cursor-pointer">Home</p>
             </Link>

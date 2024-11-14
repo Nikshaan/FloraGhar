@@ -38,11 +38,11 @@ const Reviews = () => {
             {reviews.map((rev, index) => (
                 <div key={index} className="bg-[#D6EFD8] h-[450px] text-black rounded-xl flex flex-col justify-center items-center px-2 overflow-auto border-2 border-black">
                     <div className="h-20 xl:h-32 pt-8 flex justify-center items-center">
-                        <img src={constants.user} alt="" className="h-12 w-12 xl:h-24 xl:w-24 rounded-full" />
+                        <img src={constants.user} alt="" className="h-16 w-16 xl:h-24 xl:w-24 rounded-full" />
                     </div>
-                    <div className="flex flex-col justify-center items-center gap-4 p-4">
-                        <p className="text-lg  xl:text-xl font-semibold font-Precursive">{rev.name}</p>
-                        <p className=" text-center text-sm font-Raleway">{rev.review}</p>
+                    <div className="flex flex-col justify-center items-center gap-4 p-4 mt-1">
+                        <p className="text-2xl 2xl:text-3xl font-semibold font-Precursive">{rev.name}</p>
+                        <p className=" text-center text-sm 2xl:text-lg font-Raleway">{rev.review}</p>
                     </div>
                 </div>
             ))}

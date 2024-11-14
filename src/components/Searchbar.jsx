@@ -19,7 +19,7 @@ const Searchbar = () => {
         <Link to='/'>
             <div className="flex gap-2 items-center cursor-pointer">
                 <img className="h-9 sm:h-16" src={constants.logo} alt="logo"/>
-                <h1 className="text-white tracking-wider text-2xl sm:text-3xl font-serif italic">FloraGhar</h1>
+                <h1 className="text-white tracking-wider text-2xl sm:text-3xl italic font-Raleway">FloraGhar</h1>
             </div>
         </Link>
         {
@@ -33,9 +33,9 @@ const Searchbar = () => {
             <img className="h-8 p-1 rounded-full bg-white cursor-pointer" src={constants.profile_icon} alt="logo"/>
             <div className="group-hover:block hidden absolute -right-14 sm:right-0  pt-2">
                 <div className="font-semibold text-nowrap flex flex-col gap-2 w-36 py-3 px-2 bg-[#508D4E] text-white rounded  border-2 border-black">
-                    <p className="hover:text-[#1A5319] cursor-pointer font-serif  border-2 border-black p-1">My Profile</p>
-                    <p className="hover:text-[#1A5319] cursor-pointer font-serif  border-2 border-black p-1">Order History</p>
-                    <p className="hover:text-[#1A5319] cursor-pointer font-serif border-2 border-black p-1">Log Out</p>
+                    <p className="hover:text-[#1A5319] cursor-pointer font-Raleway  border-2 border-black p-1">My Profile</p>
+                    <p className="hover:text-[#1A5319] cursor-pointer font-Raleway  border-2 border-black p-1">Order History</p>
+                    <p className="hover:text-[#1A5319] cursor-pointer font-Raleway border-2 border-black p-1">Log Out</p>
                 </div>
             </div>
             </div>

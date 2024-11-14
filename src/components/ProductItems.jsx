@@ -8,9 +8,9 @@ const ProductItems = ({id,img, name, price}) => {
     const {cartItems, addToCart, removeFromCart} = useContext(ShopContext);
     
     return(
-        <div className="flex flex-col gap-1 justify-center items-center w-full h-full bg-[#1A5319] py-2 border-2 border-black">
+        <div className="flex flex-col gap-1 justify-center items-center hover:scale-105 duration-200 w-[99%] h-full bg-[#1A5319] py-2 border-2 border-black">
         <Link className=" " to={`/product/${id}`}>
-            <div className="flex relative cursor-pointer w-full h-full justify-center items-center flex-col bg-[#1A5319]hover:scale-105 duration-200">
+            <div className="flex relative cursor-pointer w-full h-full justify-center items-center flex-col bg-[#1A5319]">
                 <div className="w-full h-full flex flex-col gap-1 justify-center items-center bg-[#1A5319] p-2">
                     <img className="w-44 rounded-sm" src={img} />
                     <p className="text-center text-white font-Raleway">{name}</p>

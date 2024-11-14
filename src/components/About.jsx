@@ -1,9 +1,9 @@
 const About = () => {
   return (
     <section id="about">
-      <div className="bg-[#80AF81] flex flex-col justify-center items-center py-14 p-8 lg:p-28 2xl:px-96 2xl:py-30">
+      <div className="bg-[#80AF81] flex flex-col justify-center items-center p-14 lg:p-28 2xl:px-96 2xl:py-44">
           <h1 className="text-3xl lg:text-5xl 2xl:text-6xl font-bold font-Precursive mb-6">About FloraGhar</h1>
-          <p className="font-Raleway mb-4 m-auto 2xl:text-xl">Welcome to FloraGhar, your one-stop destination for all things green
+          <p className="font-Raleway mb-4 m-auto 2xl:text-2xl text-center">Welcome to FloraGhar, your one-stop destination for all things green
             and beautiful! At FloraGhar, we believe that plants bring life, joy,
             and tranquility to any space. Our mission is to make it easy for you
             to create your own green haven, whether you’re a seasoned gardener or

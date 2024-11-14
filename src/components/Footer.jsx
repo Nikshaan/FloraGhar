@@ -3,10 +3,10 @@ import {constants} from "../assets/constants";
 const Footer = () => {
   return (
     <div className="flex flex-col justify-center items-center w-full gap-5 p-4 bg-black pb-16 2xl:py-28">
-        <div className="flex flex-col lg:flex-row gap-6 2xl:mb-12 mb-6">
-            <p className="inline text-white font-Raleway text-lg lg:w-1/2">Subscribe to our Newsletter for updates and exclusive coupons & deals </p>
-            <input className="border-none shadow-sm lg:w-1/2 shadow-black outline-none rounded-md px-5" type="text" placeholder="Enter your Email address" />
-            <button className="bg-[#80AF81] p-2 px-8 rounded-3xl font-bold font-Raleway">SUBMIT</button>
+        <div className="flex flex-col w-5/6 justify-center items-center lg:flex-row gap-6 2xl:mb-12 mb-6">
+            <p className="inline text-white text-center font-Raleway text-lg lg:w-1/2">Subscribe to our Newsletter for updates and exclusive coupons & deals </p>
+            <input className="border-none w-full shadow-sm lg:w-1/2 shadow-black outline-none rounded-md py-2 px-5" type="text" placeholder="Enter your Email address" />
+            <button className="bg-[#80AF81] w-1/2 sm:w-1/4 2xl:w-[15%] p-2 px-8 rounded-3xl font-bold font-Raleway">SUBMIT</button>
         </div>
         <div className="flex flex-col lg:flex-row gap-4 justify-evenly w-full 2xl:pb-14">
             <div className="flex flex-col gap-2 font-Raleway">
