@@ -18,7 +18,10 @@ export default {
           to: {opacity: 100}
         },
       },
-
+      fontFamily: {
+        Precursive: ['Edu Australia VIC WA NT Hand Precursive'],
+        Raleway: ['Raleway'],
+      }
   },
   plugins: [],
 }

@@ -19,9 +19,9 @@ const Navbar = () => {
     <div className="bg-[#1A5319] px-3 py-2 flex flex-col gap-3 md:flex-row justify-between items-center sticky top-0 z-50">
         <div className="flex gap-2 items-center cursor-pointer">
             <img className="h-9 sm:h-16" src={constants.logo} alt="logo"/>
-            <h1 className="text-white tracking-wider text-2xl sm:text-3xl font-serif italic">FloraGhar</h1>
+            <h1 className="text-white tracking-wider text-2xl sm:text-3xl font-Raleway italic">FloraGhar</h1>
         </div>
-        <ul className="flex text-white gap-5 md:gap-6 text-base font-serif">
+        <ul className="flex text-white gap-5 md:gap-6 text-base font-raleway">
             <Link activeClass="active" to='home' smooth={true} offset={mobile===false?-80:-120} duration={500}>
                 <p className="cursor-pointer">Home</p>
             </Link>
@@ -40,10 +40,10 @@ const Navbar = () => {
             <div className="group relative">
             <img className="h-8 p-1 rounded-full bg-white cursor-pointer" src={constants.profile_icon} alt="logo"/>
             <div className="group-hover:block hidden absolute -right-14 sm:right-0  pt-2">
-                <div className="font-semibold text-nowrap flex flex-col gap-2 w-36 py-3 px-2 bg-[#508D4E] text-white rounded  border-2 border-black">
-                    <p className="hover:text-[#1A5319] cursor-pointer font-serif  border-2 border-black p-1">My Profile</p>
-                    <p className="hover:text-[#1A5319] cursor-pointer font-serif  border-2 border-black p-1">Order History</p>
-                    <p className="hover:text-[#1A5319] cursor-pointer font-serif border-2 border-black p-1">Log Out</p>
+                <div className="font-semibold text-nowrap flex flex-col gap-2 w-36 py-3 px-2 bg-[#508D4E] text-white rounded  border-2 border-black font-Raleway">
+                    <p className="hover:text-[#1A5319] cursor-pointer border-2 border-black p-1">My Profile</p>
+                    <p className="hover:text-[#1A5319] cursor-pointer border-2 border-black p-1">Order History</p>
+                    <p className="hover:text-[#1A5319] cursor-pointer border-2 border-black p-1">Log Out</p>
                 </div>
             </div>
             </div>

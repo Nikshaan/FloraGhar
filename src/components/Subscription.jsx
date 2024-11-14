@@ -6,13 +6,13 @@ const Subscription = () => {
     <div className="flex p-12 m-auto justify-evenly flex-col gap-10 lg:flex-row items-center w-full">
         <div className="flex justify-center items-center">
             <div>
-                <h1 className="text-black text-3xl md:text-5xl 2xl:text-7xl text-center italic font-serif mb-3">Become a part of the FloraClub!</h1>
-                <p className="text-white text-sm md:text-lg italic font-serif text-center">Get exciting offers and discounts upto 40% off on any purchases from our website.</p>
+                <h1 className="text-black text-3xl md:text-5xl 2xl:text-7xl text-center italic font-Raleway mb-3">Become a part of the FloraClub!</h1>
+                <p className="text-white text-sm md:text-lg italic font-Precursive text-center">Get exciting offers and discounts upto 40% off on any purchases from our website.</p>
             <div className="mt-6 flex gap-5 justify-center items-center">
-                <button className="bg-white p-3 font-mono font-bold hover:bg-black hover:text-white hover:duration-300 rounded-2xl">
+                <button className="bg-white p-3 font-Raleway font-bold hover:bg-black hover:text-white hover:duration-300 rounded-2xl">
                     LEARN MORE
                 </button>
-                <button className="bg-white p-3 font-mono font-bold hover:bg-black hover:text-white hover:duration-300 rounded-2xl">
+                <button className="bg-white p-3 font-Raleway font-bold hover:bg-black hover:text-white hover:duration-300 rounded-2xl">
                     SUBSCRIBE
                 </button>
             </div>
