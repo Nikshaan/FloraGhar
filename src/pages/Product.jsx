@@ -115,16 +115,16 @@ const Product = () => {
                         <p className="text-xl font-semibold font-Precursive p-0.5 px-1">CART</p>
                         <img className="w-3 h-3" src={constants.plus} />
                     </div>:
-                    <div className="flex gap-6 mt-10 cursor-pointer justify-center items-center bg-white border-2 border-[#1A5319] px-2 rounded-full py-0.5 my-2">
+                    <div className="flex gap-6 mt-10 justify-center items-center bg-white border-2 border-[#1A5319] px-2 rounded-full py-0.5 my-2">
                         <img onClick={() => {
 
                             removeFromCart(productID);
                         }}
-                            className="w-3 h-3" src={constants.minus} />
+                            className="w-3 h-3 cursor-pointer" src={constants.minus} />
                         <p className="font-mono text-2xl">{cartItems[productID]}</p>
                         <img onClick={() => {
                             addToCart(productID);
-                        }} className="w-3 h-3" src={constants.plus} />
+                        }} className="w-3 h-3 cursor-pointer" src={constants.plus} />
                     </div>
                     }
             </div>

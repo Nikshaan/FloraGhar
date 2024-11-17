@@ -4,7 +4,7 @@ import { constants } from "../assets/constants";
 const Collections = () => {
   return (
     <section id="collections">
-    <div className="bg-[#80AF81] flex justify-center items-center pt-10 pb-14 md:px-32 2xl:py-48">
+    <div className="bg-[#80AF81] flex justify-center items-center pt-10 pb-14 md:px-32">
         <div className="flex flex-col gap-3 mt-4 font-Raleway">
             <div className="flex flex-col sm:flex-row gap-3 w-full justify-center items-center">
                 <Link to='/plant-collection'>

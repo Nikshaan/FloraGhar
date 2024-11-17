@@ -29,16 +29,18 @@ const ProductItems = ({id,img, name, price}) => {
                         <p className="text-sm font-semibold font-Precursive p-0.5">CART</p>
                         <img className="w-3 h-3" src={constants.plus} />
                     </div>:
-                    <div className="flex gap-6 cursor-pointer justify-center items-center bg-white px-2 rounded-full py-0.5 my-2">
+                    <div className="flex gap-6 justify-center items-center bg-white px-2 rounded-full py-0.5 my-2">
                         <img onClick={() => {
 
                             removeFromCart(id);
                         }}
-                            className="w-3 h-3" src={constants.minus} />
+                            className="w-3 h-3 cursor-pointer" src={constants.minus} />
+
                         <p className="font-mono">{cartItems[id]}</p>
+                        
                         <img onClick={() => {
                             addToCart(id);
-                        }} className="w-3 h-3" src={constants.plus} />
+                        }} className="w-3 h-3 cursor-pointer" src={constants.plus} />
                     </div>
                     }
         </div>
